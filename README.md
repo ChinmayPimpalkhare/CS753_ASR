@@ -1,3 +1,7 @@
+##CS753 - Hacker Role; Team Audio_Linguists
+
+"ALIGN WITH PURPOSE: OPTIMIZE DESIRED PROPERTIES IN CTC MODELS WITH A GENERAL PLUG-AND PLAY FRAMEWORK" 
+
 #AWP-AlignWithPurpose
 
 AWP is a versatile PLUG-AND-PLAY framework designed to optimize specific properties in Connectionist Temporal Classification (CTC) models.
