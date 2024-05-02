@@ -1,1 +1,4 @@
 # CS753_ASR
+
+This is the README for the hacker role. The paper we looked at was titled "ALIGN WITH PURPOSE: OPTIMIZE DESIRED PROPERTIES IN CTC MODELS WITH A GENERAL PLUG-ANDPLAY FRAMEWORK"
+
