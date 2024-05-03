@@ -36,3 +36,15 @@ loss = loss_CTC + loss_AWP
 ```
 
 
+### Our Observations and Contributions
+We had a look at the paper and the comments provided by the reviewers on OpenReview. The supplementary code consisted of only two files, and we tried going through them. 
+The paper was easy to understand but the implementation required use to set up a complete CTC model from scratch, just so that we could check the code provided by them; and we weren't able to make much headway because of this with respect to the code. 
+
+We tried working about and exploring what the functions given in the code provided by them were doing, and tried some testing manually. 
+
+### Some Discussion Regarding the Paper
+1. The paper focuses on improving alignments in scenarios where two alignments have the same CER but different WER
+2. It tries to achieve this by shifting the characters in the sequence so that an alignment which can minimize WER can be found
+3. Additionally, it also tries to do well in low latency conditions by adding a length penalty term which tries reducing the end of longer sentences and thus making it better for streaming ASR tasks
+4. The reviewers accepted the paper mainly because it seemed to explore an intereseting domain, however, they also commented that the improvement in Minimum WER achieved by the paper did not seem significant enough. 
+
