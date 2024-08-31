@@ -1,5 +1,6 @@
 ## CS753 - Hacker Role; Team Audio_Linguists
-
+We were asked to study a paper and study its codebase and implement some kind of innovation in it. 
+The repository we chose is: https://paperswithcode.com/paper/align-with-purpose-optimize-desired
 ## Paper Title - AlignCTC
 
 "ALIGN WITH PURPOSE: OPTIMIZE DESIRED PROPERTIES IN CTC MODELS WITH A GENERAL PLUG-AND PLAY FRAMEWORK" 
